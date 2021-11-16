@@ -52,5 +52,10 @@ namespace TextEditor
                 File.WriteAllText(filePath, textContent.Text);
             }
         }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+        }
     }
 }
